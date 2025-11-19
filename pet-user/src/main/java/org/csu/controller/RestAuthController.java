@@ -9,16 +9,15 @@ import me.zhyd.oauth.model.AuthCallback;
 import me.zhyd.oauth.request.AuthGithubRequest;
 import me.zhyd.oauth.request.AuthRequest;
 import me.zhyd.oauth.utils.AuthStateUtils;
+import org.csu.common.utils.JwtUtil;
 import org.csu.dao.AccountDao;
 import org.csu.dao.SignonDao;
 import org.csu.domain.Account;
 import org.csu.domain.Signon;
-import org.csu.service.ISignonService;
-import org.csu.utils.JwtUtil;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.servlet.view.RedirectView;
 
 import java.io.IOException;
 import java.util.HashMap;

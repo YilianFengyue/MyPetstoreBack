@@ -1,4 +1,4 @@
-package org.csu.utils;
+package org.csu.common.utils;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;

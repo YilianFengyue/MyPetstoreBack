@@ -1,4 +1,4 @@
-package org.csu.controller;
+package org.csu.common;
 
 public class Code {
     public static final Integer SAVE_OK = 20011;

@@ -1,4 +1,4 @@
-package org.csu.config;
+package org.csu.common.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

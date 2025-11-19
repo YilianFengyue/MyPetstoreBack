@@ -1,4 +1,4 @@
-package org.csu.dao;
+package org.csu.domain;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;

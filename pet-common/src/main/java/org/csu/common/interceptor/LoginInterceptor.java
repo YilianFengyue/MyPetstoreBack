@@ -1,12 +1,13 @@
-package org.csu.interceptor;
+package org.csu.common.interceptor;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import org.csu.controller.Code;
-import org.csu.controller.Result;
-import org.csu.utils.JwtUtil;
-import org.csu.utils.ThreadLocalUtil;
+import org.csu.common.Code;
+import org.csu.common.Result;
+import org.csu.common.utils.JwtUtil;
+import org.csu.common.utils.ThreadLocalUtil;
+
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 

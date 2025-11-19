@@ -1,12 +1,12 @@
 package org.csu.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.csu.dao.CategoryDao;
 import org.csu.dao.ProductDao;
 import org.csu.domain.Category;
-import org.csu.dao.CategoryDao;
 import org.csu.domain.Product;
 import org.csu.service.ICategoryService;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,14 +1,13 @@
 package org.csu.domain;
 
-import com.baomidou.mybatisplus.annotation.TableField;
-import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableName;
+
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
+
 /**
  * <p>
  * 
@@ -20,46 +19,43 @@ import java.math.BigDecimal;
 @Getter
 @Setter
 @ToString
-@TableName("item")
-public class Item implements Serializable {
+
+public class ItemDTO implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    @TableId("itemid")
+
     private String itemid;
 
-    @TableField("productid")
+
     private String productid;
 
-    @TableField("listprice")
+
     private BigDecimal listprice;
 
-    @TableField("unitcost")
+
     private BigDecimal unitcost;
 
-    @TableField("supplier")
+
     private Integer supplier;
 
-    @TableField("status")
+
     private String status;
 
-    @TableField("attr1")
+
     private String attr1;
 
-    @TableField("attr2")
+
     private String attr2;
 
-    @TableField("attr3")
+
     private String attr3;
 
-    @TableField("attr4")
+
     private String attr4;
 
-    @TableField("attr5")
+
     private String attr5;
 
-    //上架下架
-//    @TableLogic(value="0",delval="1")
-    //value为正常数据的值，delval为删除数据的值
     private Integer uploaded;
 }

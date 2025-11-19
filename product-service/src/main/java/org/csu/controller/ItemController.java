@@ -1,9 +1,10 @@
 package org.csu.controller;
 
+import org.csu.common.Code;
+import org.csu.common.Result;
 import org.csu.domain.Item;
 import org.csu.service.IItemService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -23,13 +24,19 @@ public class ItemController {
     private IItemService itemService;
     // 获取所有商品项
     @GetMapping
-    public Result  getAllItems() {
+    public Result getAllItems() {
         List<Item> itemList = itemService.getAllItems();
         Integer code = itemList != null ? Code.GET_OK : Code.GET_ERR;
         String msg = itemList != null ? "" : "数据查询失败，请重试！";
         return new Result(code, itemList, msg);
     }
-
+    //根据id 获取商品
+    @GetMapping("/{id}")
+    public Result getItemById(@PathVariable String id) {
+        Item item= itemService.getItemById(id);
+        String msg = item != null ? "" : "数据查询失败，请重试！";
+        return new Result(Code.GET_OK, item,msg);
+    }
     // 1. 新增商品项
     @PostMapping
     public Result addItem(@RequestBody Item item) {

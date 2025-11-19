@@ -1,4 +1,4 @@
-package org.csu.utils;
+package org.csu.common.utils;
 
 /**
  * ThreadLocal 工具类

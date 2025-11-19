@@ -1,12 +1,10 @@
 package org.csu.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import org.csu.domain.Account;
-import org.csu.domain.Item;
-import org.csu.dao.ItemDao;
-import org.csu.service.IItemService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.csu.dao.ItemDao;
+import org.csu.domain.Item;
+import org.csu.service.IItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -31,6 +29,8 @@ public class ItemServiceImpl extends ServiceImpl<ItemDao, Item> implements IItem
         List<Item> itemList = itemDao.selectList(null);
         return itemList;
     }
+
+
 
     @Override
     public boolean addItem(Item item) {

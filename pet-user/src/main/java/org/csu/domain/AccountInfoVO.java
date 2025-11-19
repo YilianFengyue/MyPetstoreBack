@@ -1,4 +1,4 @@
-package org.csu.dao;
+package org.csu.domain;
 
 import lombok.Data;
 

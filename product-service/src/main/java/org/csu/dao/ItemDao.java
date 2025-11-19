@@ -1,10 +1,9 @@
 package org.csu.dao;
 
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Update;
 import org.csu.domain.Item;
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-
-import org.apache.ibatis.annotations.Mapper;
 
 /**
  * <p>

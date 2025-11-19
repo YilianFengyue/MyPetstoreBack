@@ -1,7 +1,9 @@
 package org.csu.controller;
 
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import jakarta.servlet.http.HttpServletRequest;
+import org.csu.common.Code;
+import org.csu.common.Result;
+import org.csu.common.utils.JwtUtil;
+import org.csu.common.utils.ThreadLocalUtil;
 import org.csu.dao.AccountDao;
 import org.csu.dao.SignonDao;
 import org.csu.domain.Account;
@@ -9,8 +11,7 @@ import org.csu.domain.AccountInfoVO;
 import org.csu.domain.Signon;
 import org.csu.service.IAccountService;
 import org.csu.service.ISignonService;
-import org.csu.utils.JwtUtil;
-import org.csu.utils.ThreadLocalUtil;
+
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
@@ -19,7 +20,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.TimeUnit;
 
 /**
  * <p>

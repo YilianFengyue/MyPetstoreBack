@@ -1,7 +1,11 @@
 package org.csu.controller;
 
+import org.csu.client.ItemClient;
+import org.csu.common.Code;
+import org.csu.common.Result;
+import org.csu.common.exception.BusinessException;
 import org.csu.domain.Product;
-import org.csu.exception.BusinessException;
+
 import org.csu.service.IProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -28,6 +32,7 @@ import java.util.List;
 public class ProductController {
     @Autowired
     private IProductService productService;
+
 
     // 1. 新增商品
     @PostMapping

@@ -1,7 +1,7 @@
 package org.csu.service;
 
-import org.csu.domain.Product;
 import com.baomidou.mybatisplus.extension.service.IService;
+import org.csu.domain.Product;
 
 import java.util.List;
 

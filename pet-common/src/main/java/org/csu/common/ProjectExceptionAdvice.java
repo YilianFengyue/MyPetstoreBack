@@ -1,9 +1,9 @@
-package org.csu.controller;
+package org.csu.common;
 
-import org.csu.exception.BusinessException;
-import org.csu.exception.SystemException;
+
+import org.csu.common.exception.BusinessException;
+import org.csu.common.exception.SystemException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 //@RestControllerAdvice用于标识当前类为REST风格对应的异常处理器
 //@RestControllerAdvice

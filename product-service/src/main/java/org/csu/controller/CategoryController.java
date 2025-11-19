@@ -1,5 +1,7 @@
 package org.csu.controller;
 
+import org.csu.common.Code;
+import org.csu.common.Result;
 import org.csu.domain.Category;
 import org.csu.service.impl.CategoryServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;

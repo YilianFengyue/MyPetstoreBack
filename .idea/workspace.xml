@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da65494b-7ab7-4a86-a235-0e0c4ad7e13e" name="更改" comment="删除精简">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-api/src/main/java/org/csu/client/ItemClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-api/src/main/java/org/csu/config/DefaultFeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-api/src/main/java/org/csu/domain/ItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-common/src/main/java/org/csu/common/Code.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-common/src/main/java/org/csu/common/ProjectExceptionAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-common/src/main/java/org/csu/common/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-common/src/main/java/org/csu/common/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-common/src/main/java/org/csu/common/config/Mpconfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-common/src/main/java/org/csu/common/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-common/src/main/java/org/csu/common/exception/SystemException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-common/src/main/java/org/csu/common/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-common/src/main/java/org/csu/common/utils/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-common/src/main/java/org/csu/common/utils/ThreadLocalUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-trade/src/main/java/org/csu/controller/OrdersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-trade/src/main/java/org/csu/controller/ShoppingcartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-trade/src/main/java/org/csu/dao/LineitemDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-trade/src/main/java/org/csu/dao/OrdersDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-trade/src/main/java/org/csu/dao/OrderstatusDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-trade/src/main/java/org/csu/dao/SequenceDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-trade/src/main/java/org/csu/dao/ShoppingcartDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-trade/src/main/java/org/csu/domain/Lineitem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-trade/src/main/java/org/csu/domain/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-trade/src/main/java/org/csu/domain/Orderstatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-trade/src/main/java/org/csu/domain/Sequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-trade/src/main/java/org/csu/domain/Shoppingcart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-trade/src/main/java/org/csu/service/IOrdersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-trade/src/main/java/org/csu/service/IShoppingcartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-trade/src/main/java/org/csu/service/impl/OrdersServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-trade/src/main/java/org/csu/service/impl/ShoppingcartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-user/src/main/java/org/csu/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-user/src/main/java/org/csu/controller/RestAuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-user/src/main/java/org/csu/controller/SignonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-user/src/main/java/org/csu/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-user/src/main/java/org/csu/dao/AdminDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-user/src/main/java/org/csu/dao/ProfileDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-user/src/main/java/org/csu/dao/SignonDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-user/src/main/java/org/csu/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-user/src/main/java/org/csu/domain/AccountInfoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-user/src/main/java/org/csu/domain/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-user/src/main/java/org/csu/domain/Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-user/src/main/java/org/csu/domain/Signon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-user/src/main/java/org/csu/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-user/src/main/java/org/csu/service/IAdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-user/src/main/java/org/csu/service/ISignonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-user/src/main/java/org/csu/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-user/src/main/java/org/csu/service/impl/IAdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-user/src/main/java/org/csu/service/impl/SignonServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/csu/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/csu/controller/ItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/csu/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/csu/dao/BannerdataDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/csu/dao/CategoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/csu/dao/InventoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/csu/dao/ItemDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/csu/dao/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/csu/dao/SupplierDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/csu/domain/Bannerdata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/csu/domain/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/csu/domain/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/csu/domain/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/csu/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/csu/domain/Supplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/csu/service/ICategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/csu/service/IItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/csu/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/csu/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/csu/service/impl/ItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/csu/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MyPetstoreForBussinessGene.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/controller/BannerdataController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/controller/HistoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/controller/InventoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/controller/LineitemController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/controller/OrderstatusController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/controller/ProfileController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/controller/SequenceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/controller/SupplierController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/IBannerdataService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/IHistoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/IInventoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/ILineitemService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/IOrderstatusService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/IProfileService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/ISequenceService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/ISupplierService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/impl/BannerdataServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/impl/HistoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/impl/InventoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/impl/LineitemServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/impl/OrderstatusServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/impl/ProfileServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/impl/SequenceServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/impl/SupplierServiceImpl.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2tzOzVAIgqPtPXbLfBkkSVmQyjS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JUnit.AccountTest.TestDelete.executor": "Run",
+    "JUnit.AccountTest.TestGet.executor": "Run",
+    "JUnit.AccountTest.TestUpDate.executor": "Run",
+    "JUnit.CategoryServiceImplTest.testAddCategory.executor": "Run",
+    "JUnit.CategoryServiceImplTest.testDeleteCategory.executor": "Run",
+    "JUnit.CategoryServiceImplTest.testGetAllCategory.executor": "Run",
+    "JUnit.CategoryServiceImplTest.testGetCategoryByInfo.executor": "Run",
+    "JUnit.CategoryServiceImplTest.testUpdateCategory.executor": "Run",
+    "JUnit.DaoTest.testCategoryGetAll.executor": "Run",
+    "JUnit.DaoTest.testDelete.executor": "Run",
+    "JUnit.DaoTest.testItemGetAll.executor": "Run",
+    "JUnit.DaoTest.testProductGetAll.executor": "Run",
+    "JUnit.DaoTest.testUserGetAll.executor": "Run",
+    "JUnit.ItemTest.TestDelete.executor": "Run",
+    "JUnit.ItemTest.TestFindAll.executor": "Run",
+    "JUnit.ItemTest.TestUpDate.executor": "Run",
+    "JUnit.ItemTest.findItem.executor": "Run",
+    "JUnit.ItemTest.saveItem.executor": "Run",
+    "JUnit.ItemTest.searchItem.executor": "Run",
+    "JUnit.ItemTest.uploadItem.executor": "Run",
+    "JUnit.MyPetstoreForBussinessApplicationTests.testGetAll.executor": "Run",
+    "JUnit.ProductServiceImplTest.testAddProduct.executor": "Run",
+    "JUnit.ProductServiceImplTest.testDeleteProduct.executor": "Run",
+    "JUnit.ProductServiceImplTest.testGetAllProducts.executor": "Run",
+    "JUnit.ProductServiceImplTest.testGetProductsByInfo.executor": "Debug",
+    "JUnit.ProductServiceImplTest.testUpdateProduct.executor": "Run",
+    "JUnit.ProductServiceImplTest.testadmin.executor": "Run",
+    "Maven.pet-common [clean].executor": "Run",
+    "Maven.pet-common [install].executor": "Run",
+    "Maven.pet-trade [clean].executor": "Run",
+    "Maven.pet-trade [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.MyPetstoreForBussinessApplication.executor": "Run",
+    "Spring Boot.PetApiApplication.executor": "Run",
+    "Spring Boot.PetTradeApplication.executor": "Run",
+    "Spring Boot.PetUserApplication.executor": "Run",
+    "Spring Boot.ProductServiceApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "23",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/大二/大二下/ssm实验/SSM实验二/MyPetstoreBack1/pet-trade/src/main/java/org/csu",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.28275862",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.Generator.executor": "Run"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\大二\大二下\ssm实验\SSM实验二\MyPetstoreBack1\pet-trade\src\main\java\org\csu" />
+      <recent name="D:\大二\大二下\ssm实验\SSM实验二\MyPetstoreBack\pet-trade\src\main\java\org\csu\controller" />
+      <recent name="D:\大二\大二下\ssm实验\SSM实验二\MyPetstoreBack\pet-trade\src\main\java\org\csu\service\impl" />
+      <recent name="D:\大二\大二下\ssm实验\SSM实验二\MyPetstoreBack\pet-trade\src\main\java\org\csu\service" />
+      <recent name="D:\大二\大二下\ssm实验\SSM实验二\MyPetstoreBack\pet-trade\src\main\java\org\csu\dao" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.csu" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.csu.domain" />
+      <recent name="org.csu.config" />
+      <recent name="org.csu.common" />
+      <recent name="org.csu.utils" />
+      <recent name="org.csu.controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.AccountTest.TestGet">
+    <configuration name="AccountTest.TestGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyPetstoreForBussiness" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.csu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.csu" />
+      <option name="MAIN_CLASS_NAME" value="org.csu.AccountTest" />
+      <option name="METHOD_NAME" value="TestGet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CategoryServiceImplTest.testGetCategoryByInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyPetstoreForBussiness" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.csu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.csu" />
+      <option name="MAIN_CLASS_NAME" value="org.csu.CategoryServiceImplTest" />
+      <option name="METHOD_NAME" value="testGetCategoryByInfo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CategoryServiceImplTest.testUpdateCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyPetstoreForBussiness" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.csu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.csu" />
+      <option name="MAIN_CLASS_NAME" value="org.csu.CategoryServiceImplTest" />
+      <option name="METHOD_NAME" value="testUpdateCategory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemTest.TestDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyPetstoreForBussiness" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.csu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.csu" />
+      <option name="MAIN_CLASS_NAME" value="org.csu.ItemTest" />
+      <option name="METHOD_NAME" value="TestDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceImplTest.testadmin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyPetstoreForBussiness" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.csu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.csu" />
+      <option name="MAIN_CLASS_NAME" value="org.csu.ProductServiceImplTest" />
+      <option name="METHOD_NAME" value="testadmin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="MyPetstoreForBussiness" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="MyPetstoreForBussiness" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyPetstoreForBussinessApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="MyPetstoreForBussiness" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.csu.MyPetstoreForBussinessApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetTradeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="pet-trade" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.csu.PetTradeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="pet-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.csu.PetUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="product-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.csu.ProductServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AccountTest.TestGet" />
+        <item itemvalue="JUnit.ItemTest.TestDelete" />
+        <item itemvalue="JUnit.ProductServiceImplTest.testadmin" />
+        <item itemvalue="JUnit.CategoryServiceImplTest.testGetCategoryByInfo" />
+        <item itemvalue="JUnit.CategoryServiceImplTest.testUpdateCategory" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="da65494b-7ab7-4a86-a235-0e0c4ad7e13e" name="更改" comment="" />
+      <created>1741351699019</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741351699019</updated>
+      <workItem from="1741351700021" duration="6092000" />
+      <workItem from="1741358763084" duration="725000" />
+      <workItem from="1741394526174" duration="10009000" />
+      <workItem from="1741415705534" duration="15793000" />
+      <workItem from="1741442612702" duration="968000" />
+      <workItem from="1741479932254" duration="1253000" />
+      <workItem from="1741484619353" duration="8005000" />
+      <workItem from="1741500917894" duration="6428000" />
+      <workItem from="1741507520987" duration="372000" />
+      <workItem from="1741512180004" duration="1095000" />
+      <workItem from="1741527969620" duration="1549000" />
+      <workItem from="1741616796378" duration="2851000" />
+      <workItem from="1741667214953" duration="821000" />
+      <workItem from="1741679492991" duration="22142000" />
+      <workItem from="1741737264262" duration="2404000" />
+      <workItem from="1741769957042" duration="1484000" />
+      <workItem from="1741786301690" duration="5433000" />
+      <workItem from="1741947865778" duration="3602000" />
+      <workItem from="1742004198354" duration="4550000" />
+      <workItem from="1742019288581" duration="6647000" />
+      <workItem from="1742026047759" duration="4955000" />
+      <workItem from="1742032553967" duration="16228000" />
+      <workItem from="1742050378135" duration="1394000" />
+      <workItem from="1742085443556" duration="294000" />
+      <workItem from="1742086238245" duration="11849000" />
+      <workItem from="1742108356373" duration="1520000" />
+      <workItem from="1742119798898" duration="9160000" />
+      <workItem from="1742130452832" duration="1047000" />
+      <workItem from="1742190841096" duration="409000" />
+      <workItem from="1742192229213" duration="4141000" />
+      <workItem from="1742203028365" duration="924000" />
+      <workItem from="1742210268176" duration="125000" />
+      <workItem from="1742284792681" duration="410000" />
+      <workItem from="1742397749218" duration="254000" />
+      <workItem from="1742605003980" duration="3615000" />
+      <workItem from="1742611563887" duration="370000" />
+      <workItem from="1742807728992" duration="412000" />
+      <workItem from="1743318772176" duration="6780000" />
+      <workItem from="1743419782824" duration="2255000" />
+      <workItem from="1743650296529" duration="974000" />
+      <workItem from="1743755424562" duration="2707000" />
+      <workItem from="1743900556375" duration="2023000" />
+      <workItem from="1743938311306" duration="3606000" />
+      <workItem from="1743986988664" duration="289000" />
+      <workItem from="1743990605460" duration="1062000" />
+      <workItem from="1743991796471" duration="540000" />
+      <workItem from="1743992593067" duration="4778000" />
+      <workItem from="1744005236609" duration="6866000" />
+      <workItem from="1744018701438" duration="1971000" />
+      <workItem from="1744027904572" duration="1443000" />
+      <workItem from="1744032598685" duration="2244000" />
+      <workItem from="1744065159050" duration="2929000" />
+      <workItem from="1744085059642" duration="418000" />
+      <workItem from="1744099583727" duration="18988000" />
+      <workItem from="1744152236491" duration="688000" />
+      <workItem from="1744156578123" duration="4379000" />
+      <workItem from="1744178912280" duration="10000" />
+      <workItem from="1744463512339" duration="582000" />
+      <workItem from="1744769513456" duration="1570000" />
+      <workItem from="1745421622478" duration="12000" />
+      <workItem from="1745554601165" duration="1496000" />
+      <workItem from="1745936515981" duration="657000" />
+      <workItem from="1745975822012" duration="1694000" />
+      <workItem from="1746749509046" duration="1393000" />
+      <workItem from="1747609693546" duration="818000" />
+      <workItem from="1747955616714" duration="271000" />
+      <workItem from="1747974236524" duration="2502000" />
+      <workItem from="1752210668247" duration="468000" />
+      <workItem from="1756563183577" duration="901000" />
+      <workItem from="1762921654665" duration="314000" />
+      <workItem from="1762922982013" duration="94000" />
+      <workItem from="1762956896516" duration="943000" />
+      <workItem from="1763450992171" duration="930000" />
+      <workItem from="1763515009823" duration="8082000" />
+      <workItem from="1763527384868" duration="425000" />
+      <workItem from="1763532505531" duration="6359000" />
+      <workItem from="1763538922732" duration="2026000" />
+      <workItem from="1763541130742" duration="259000" />
+      <workItem from="1763541407455" duration="23000" />
+      <workItem from="1763541434482" duration="9000" />
+      <workItem from="1763541457548" duration="18000" />
+      <workItem from="1763541479128" duration="13000" />
+      <workItem from="1763541513889" duration="5671000" />
+    </task>
+    <task id="LOCAL-00001" summary="删除精简">
+      <option name="closed" value="true" />
+      <created>1763516996491</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1763516996491</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="删除精简" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除精简" />
+  </component>
+</project>

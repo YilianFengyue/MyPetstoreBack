@@ -1,4 +1,4 @@
-package org.csu.exception;
+package org.csu.common.exception;
 
 public class SystemException extends RuntimeException{
     private Integer code;//异常编号

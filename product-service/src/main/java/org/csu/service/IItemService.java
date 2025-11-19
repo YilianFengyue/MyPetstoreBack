@@ -1,9 +1,7 @@
 package org.csu.service;
 
-import org.csu.dao.ItemDao;
-import org.csu.domain.Item;
 import com.baomidou.mybatisplus.extension.service.IService;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.csu.domain.Item;
 
 import java.util.List;
 
@@ -20,6 +18,8 @@ public interface IItemService extends IService<Item> {
 
     //0.查询所有
     public List<Item> getAllItems();
+
+
     //1.增加商品
     public boolean addItem(Item item);
     //2.删除商品
