@@ -11,6 +11,7 @@
     <groupId>org.csu</groupId>
     <artifactId>MyPetstoreForBussiness</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>MyPetstoreForBussiness</name>
     <description>MyPetstoreForBussiness</description>
     <url/>
@@ -20,6 +21,9 @@
     <developers>
         <developer/>
     </developers>
+    <modules>
+        <module>pet-gateway</module>
+    </modules>
     <scm>
         <connection/>
         <developerConnection/>

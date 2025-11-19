@@ -1,0 +1,40 @@
+server:
+  port: 8080 # 网关通常占用 8080 端口
+
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.118.81.30:8848 # 你的 Nacos 地址
+    gateway:
+      discovery:
+        locator:
+          enabled: true # 开启通过服务名自动路由，方便调试
+      # 跨域配置 (解决前端访问网关时的跨域问题)
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "*" # 或者指定前端地址 "http://localhost:4399"
+            allowedMethods: "*"
+            allowedHeaders: "*"
+            allowCredentials: true
+      routes:
+        # --- 用户服务路由 ---
+        - id: user-service
+          uri: lb://user-service # 这里的名字必须和你 user-service 的 application.yml 中的 name 一致
+          predicates:
+            - Path=/account/**, /signon/**, /oauth/**
+
+        # --- 商品服务路由 ---
+        - id: product-service
+          uri: lb://product-service
+          predicates:
+            - Path=/product/**, /category/**, /item/**, /inventory/**
+
+        # --- 交易(订单)服务路由 ---
+        - id: trade-service
+          uri: lb://trade-service  # 你的 pet-trade 模块配置名为 trade-service
+          predicates:
+            - Path=/orders/**, /shoppingcart/**

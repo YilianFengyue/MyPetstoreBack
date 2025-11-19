@@ -9,17 +9,18 @@
         <module name="pet-common" />
         <module name="product-service" />
         <module name="pet-trade" />
-        <module name="MyPetstoreForBussiness" />
         <module name="pet-user" />
         <module name="pet-api" />
+        <module name="pet-gateway" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="MyPetstoreForBussiness" options="-parameters" />
+      <module name="MyPetstoreForBussiness" options="" />
       <module name="pet-api" options="-parameters" />
       <module name="pet-common" options="-parameters" />
+      <module name="pet-gateway" options="-parameters" />
       <module name="pet-trade" options="-parameters" />
       <module name="pet-user" options="-parameters" />
       <module name="product-service" options="-parameters" />
