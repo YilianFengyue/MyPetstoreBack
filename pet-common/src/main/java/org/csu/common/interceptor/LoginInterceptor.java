@@ -15,20 +15,16 @@ import java.util.Map;
 
 @Component
 public class LoginInterceptor implements HandlerInterceptor {
-
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         // 从请求头中获取Token
         String token = request.getHeader("Authorization");
-
         // 验证Token
         try {
             // 解析Token中的信息
             Map<String, Object> claims = JwtUtil.parseToken(token);
-
             // 如果解析成功，将Token的相关信息存储到ThreadLocal中
             ThreadLocalUtil.set(claims);
-
             // 令牌有效，放行请求
             return true;
         } catch (Exception e) {
@@ -36,7 +32,6 @@ public class LoginInterceptor implements HandlerInterceptor {
 //            response.setStatus(401);
 //            response.getWriter().write("Unauthorized: Invalid or expired token");
             response.setStatus(401);
-
             Result result = new Result(Code.SAVE_ERR, false, "Unauthorized: Invalid or expired token");
             String json = new ObjectMapper().writeValueAsString(result);
             response.getWriter().write(json);

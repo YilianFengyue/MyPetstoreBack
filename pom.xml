@@ -22,7 +22,12 @@
         <developer/>
     </developers>
     <modules>
+        <module>pet-common</module>
         <module>pet-gateway</module>
+        <module>pet-api</module>
+        <module>pet-user</module>
+        <module>pet-trade</module>
+        <module>product-service</module>
     </modules>
     <scm>
         <connection/>

@@ -5,11 +5,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/pet-api/pom.xml" />
-        <option value="$PROJECT_DIR$/pet-common/pom.xml" />
-        <option value="$PROJECT_DIR$/pet-user/pom.xml" />
-        <option value="$PROJECT_DIR$/product-service/pom.xml" />
-        <option value="$PROJECT_DIR$/pet-trade/pom.xml" />
+        <option value="$PROJECT_DIR$/account-service/pom.xml" />
+        <option value="$PROJECT_DIR$/profile-service/pom.xml" />
       </list>
     </option>
   </component>

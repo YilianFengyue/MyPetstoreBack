@@ -5,14 +5,135 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da65494b-7ab7-4a86-a235-0e0c4ad7e13e" name="更改" comment="删除精简">
-      <change afterPath="$PROJECT_DIR$/pet-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-gateway/src/main/java/org/csu/gateway/GatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-gateway/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-trade/src/main/java/org/csu/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-user/src/main/java/org/csu/config/WebConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-common/src/main/java/org/csu/common/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-common/src/main/java/org/csu/common/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-gateway/src/main/java/org/csu/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-gateway/src/main/java/org/csu/gateway/GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-gateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-gateway/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-trade/src/main/java/org/csu/PetTradeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-trade/src/main/java/org/csu/PetTradeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-trade/src/main/java/org/csu/controller/ShoppingcartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-trade/src/main/java/org/csu/controller/ShoppingcartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-user/src/main/java/org/csu/controller/RestAuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-user/src/main/java/org/csu/controller/RestAuthController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/Generator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/MyPetstoreForBussinessApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/PetProductApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/config/CorsConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/config/CorsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/config/Mpconfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/config/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/controller/AccountController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/controller/CategoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/controller/Code.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/controller/ItemController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/controller/OrdersController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/controller/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/controller/ProjectExceptionAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/controller/RestAuthController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/controller/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/controller/ShoppingcartController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/controller/SignonController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/dao/AccountDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/dao/AdminDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/dao/BannerdataDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/dao/CategoryDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/dao/HistoryDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/dao/InventoryDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/dao/ItemDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/dao/LineitemDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/dao/OrdersDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/dao/OrderstatusDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/dao/ProductDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/dao/ProfileDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/dao/SequenceDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/dao/ShoppingcartDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/dao/SignonDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/dao/SupplierDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/domain/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/domain/AccountInfoVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/domain/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/domain/Bannerdata.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/domain/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/domain/History.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/domain/Inventory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/domain/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/domain/Lineitem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/domain/Orders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/domain/Orderstatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/domain/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/domain/Profile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/domain/Sequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/domain/Shoppingcart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/domain/Signon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/domain/Supplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/exception/BusinessException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/exception/SystemException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/interceptor/LoginInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/mappers/AccountMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/mappers/BannerdataMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/mappers/CategoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/mappers/HistoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/mappers/InventoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/mappers/ItemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/mappers/LineitemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/mappers/OrdersMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/mappers/OrderstatusMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/mappers/ProductMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/mappers/ProfileMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/mappers/SequenceMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/mappers/ShoppingcartMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/mappers/SignonMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/mappers/SupplierMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/IAccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/IAdminService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/ICategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/IItemService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/IOrdersService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/IProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/IShoppingcartService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/ISignonService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/impl/AccountServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/impl/CategoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/impl/IAdminServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/impl/ItemServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/impl/OrdersServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/impl/ProductServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/impl/ShoppingcartServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/service/impl/SignonServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/utils/JwtUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/csu/utils/ThreadLocalUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/bird1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/bird2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/birds_icon.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/cat1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/cats_icon.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/cutecat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/dog1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/dog2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/dog3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/dog4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/dog5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/dog6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/dogs_icon.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/fish1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/fish2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/fish3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/fish4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/fish_icon.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/lizard1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/reptiles_icon.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/snake1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/csu/AccountTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/csu/CategoryServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/csu/ItemTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/csu/ProductServiceImplTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +212,9 @@
     "JUnit.ProductServiceImplTest.testGetProductsByInfo.executor": "Debug",
     "JUnit.ProductServiceImplTest.testUpdateProduct.executor": "Run",
     "JUnit.ProductServiceImplTest.testadmin.executor": "Run",
+    "Maven.MyPetstoreForBussiness [clean,install].executor": "Run",
+    "Maven.MyPetstoreForBussiness [clean].executor": "Run",
+    "Maven.MyPetstoreForBussiness [install].executor": "Run",
     "Maven.pet-common [clean].executor": "Run",
     "Maven.pet-common [install].executor": "Run",
     "Maven.pet-trade [clean].executor": "Run",
@@ -101,8 +225,10 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.GatewayApplication.executor": "Run",
     "Spring Boot.MyPetstoreForBussinessApplication.executor": "Run",
     "Spring Boot.PetApiApplication.executor": "Run",
+    "Spring Boot.PetTradeApplication (1).executor": "Run",
     "Spring Boot.PetTradeApplication.executor": "Run",
     "Spring Boot.PetUserApplication.executor": "Run",
     "Spring Boot.ProductServiceApplication.executor": "Run",
@@ -110,7 +236,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "23",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/大二/大二下/ssm实验/SSM实验二/MyPetstoreBack1/pet-trade/src/main/java/org/csu",
+    "last_opened_file_path": "D:/MyPetstoreBack",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -125,6 +251,9 @@
     "应用程序.Generator.executor": "Run"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\大二\大二下\ssm实验\SSM实验二\MyPetstoreBack1\pet-trade\src\main\java\org\csu" />
@@ -154,7 +283,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AccountTest.TestGet">
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
     <configuration name="AccountTest.TestGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyPetstoreForBussiness" />
       <extension name="coverage">
@@ -235,15 +364,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="MyPetstoreForBussiness" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="MyPetstoreForBussiness" />
-      <option name="filePath" />
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pet-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.csu.gateway.GatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -255,7 +378,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PetTradeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="PetTradeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="pet-trade" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.csu.PetTradeApplication" />
       <method v="2">
@@ -289,8 +412,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
       </set>
     </attachedChunks>
   </component>
@@ -386,6 +509,11 @@
       <workItem from="1763541479128" duration="13000" />
       <workItem from="1763541513889" duration="5671000" />
       <workItem from="1763551624706" duration="745000" />
+      <workItem from="1763559040328" duration="688000" />
+      <workItem from="1763559743394" duration="5751000" />
+      <workItem from="1763598456190" duration="2811000" />
+      <workItem from="1763604626847" duration="3744000" />
+      <workItem from="1763619245992" duration="2682000" />
     </task>
     <task id="LOCAL-00001" summary="删除精简">
       <option name="closed" value="true" />

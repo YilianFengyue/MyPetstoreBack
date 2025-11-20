@@ -4,11 +4,15 @@ package org.csu.controller;
 import org.csu.client.ItemClient;
 import org.csu.common.Code;
 import org.csu.common.Result;
+import org.csu.common.utils.ThreadLocalUtil;
 import org.csu.domain.Shoppingcart;
 import org.csu.service.IShoppingcartService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import lombok.RequiredArgsConstructor;
+
+import java.util.Map;
+
 /**
  * <p>
  *  前端控制器
@@ -25,8 +29,8 @@ public class ShoppingcartController {
     @Autowired
     private IShoppingcartService shoppingcartItemService;
 
-   @Autowired
-   private ItemClient itemClient;
+    @Autowired
+    private ItemClient itemClient;
     // ⭐ 新增：通过 Feign 查询商品详情
     @GetMapping("/item/{id}")
     public Result getItemDetail(@PathVariable String id) {
@@ -40,8 +44,10 @@ public class ShoppingcartController {
     public Result addItem(@RequestBody Shoppingcart cart) {
         // 1. 先通过 Feign 调用商品服务验证商品是否存在
         Result itemResult = itemClient.getItemById(cart.getItemid());
-
-        if (itemResult == null || itemResult.getCode() != Code.GET_OK) {
+        Map<String, Object> map = ThreadLocalUtil.get();
+        String username = (String) map.get("username");
+        cart.setUserid(username);
+        if (itemResult == null || !itemResult.getCode().equals(Code.GET_OK)) {
             return new Result(Code.SAVE_ERR, "商品不存在或已下架");
         }
 

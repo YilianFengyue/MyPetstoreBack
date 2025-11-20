@@ -83,7 +83,7 @@ public class RestAuthController {
         // 返回成功和 token
 //        return new Result(Code.SAVE_OK,true,token);
         // 回调成功后，重定向到前端首页并带 token 参数
-        String redirectUrl = "http://localhost:4173/oauth/callback?token=" + token;
+        String redirectUrl = "http://localhost:4399/oauth/callback?token=" + token;
         // 重定向前端页面
         response.sendRedirect(redirectUrl);
     }
@@ -92,7 +92,7 @@ public class RestAuthController {
         return new AuthGithubRequest(AuthConfig.builder()
                 .clientId("Ov23linG21czB3FJR5yk")
                 .clientSecret("12dbb83508c786fb087286e06b14e4df6ec176e0")
-                .redirectUri("http://localhost:81/oauth/callback")
+                .redirectUri("http://localhost:8080/oauth/callback")
                 .build());
     }
 }
